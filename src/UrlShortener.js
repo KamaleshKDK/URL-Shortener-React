@@ -54,7 +54,7 @@ function UrlShortener() {
         onSubmit: async (values) => {
             try {
                 let loginData = await axios.post("https://my-url-shortener-react.herokuapp.com/create-url", values)
-                window.location.reload()
+               
             } catch (error) {
                 console.log(error)
             }
