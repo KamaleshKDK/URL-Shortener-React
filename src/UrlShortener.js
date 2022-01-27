@@ -90,7 +90,7 @@ function UrlShortener() {
                         <tbody>
                             <tr>
                                 <td><p href="" target="_blank">{url.longUrl}</p></td>
-                                <td><a href={url.longUrl} target="_blank">{`https://my-url-shortener-react.herokuapp.com/${url.shortUrl}`}</a></td>
+                                <td><a href={url.longUrl} target="_blank">{`http://localhost:3000/${url.shortUrl}`}</a></td>
                                 <td><button onClick={() => handleDelete(url._id)}
                                     class="btn btn-sm btn-danger">Remove</button></td>
                             </tr>
