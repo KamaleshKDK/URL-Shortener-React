@@ -10,7 +10,7 @@ function UrlShortener() {
         try {
             let UrlShort = await axios.get("https://my-url-shortener-react.herokuapp.com/Url-shortener", {
                 headers: {
-                    Authorization: window.localStorage.setItem("my_token")
+                    Authorization: window.localStorage.getItem("my_token")
                 }
             });
         } catch (error) {
