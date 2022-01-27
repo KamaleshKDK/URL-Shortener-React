@@ -1,0 +1,26 @@
+/* 
+.urlinput {
+    margin-left: 40px;
+    color: white;
+    font-size: 20px;
+
+}
+.url-btn{
+ margin-left: 100px;
+ transition: all .1s ease-in-out;
+}
+.url-btn:hover{
+    transform: scale(1.1);
+}
+input{
+    color: white;
+} */
+.urlheading{
+    margin-top: 10px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+}
+.shortbtn{
+    margin-left: 20px;
+}
