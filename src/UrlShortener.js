@@ -58,7 +58,8 @@ function UrlShortener() {
             } catch (error) {
                 console.log(error)
             }
-        },
+            fetchUrls()
+        }
     });
     return (
 
