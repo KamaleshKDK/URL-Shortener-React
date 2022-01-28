@@ -52,3 +52,8 @@
   margin-top: 128px;
   margin-right: 50px;
 }
+@media screen and (max-width:400px) {
+  .fa-eye {
+      margin-bottom: 40px;
+  }
+}

@@ -59,9 +59,9 @@ function Login() {
                                         <div class="mb-3">
                                             <div class="mb-2 w-100">
                                                 <label class="text-muted">Password</label>
-                                                <Link to={"/forgotpassword"} class="float-end">
+                                                {/* <Link to={"/forgotpassword"} class="float-end">
                                                     Forgot Password?
-                                                </Link>
+                                                </Link> */}
                                             </div>
                                             <input type={passwordShown ? "text" : "password"}
                                                 onChange={formik.handleChange}
@@ -78,10 +78,10 @@ function Login() {
                                         </div>
 
                                         <div class="d-flex align-items-center">
-                                            <div class="form-check">
+                                            {/* <div class="form-check">
                                                 <input type="checkbox" name="remember" id="remember" class="form-check-input" />
                                                 <label for="remember" class="form-check-label">Remember Me</label>
-                                            </div>
+                                            </div> */}
                                             <button type="submit" class="btn btn-primary ms-auto">
                                                 Login
                                             </button>
